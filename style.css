@@ -1,0 +1,47 @@
+.menu-bar {
+    background-color: #da1111;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: #f1eeee;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.logo {
+    display: block;
+    margin: 0 25px;
+    max-width: 200px;
+}
+
+.button {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.welcome {
+    text-align: center;
+    padding: 20px;
+    color: #cf1020;
+}
+
+.student-profile {
+    display: none;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.student-profile:target {
+    display: block;
+    text-align: center;
+    padding: 20px;
+
+}
